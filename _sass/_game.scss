@@ -39,7 +39,7 @@
 	outline: none !important; // Super Heavy Anti-Cheat Technique (for users with custom styles)
 
 	&.is-start:focus {
-		border-color: #75bfff;
+		border-color: #2676ad;
 		background-color: #666;
 	}
 
@@ -55,12 +55,12 @@
 
 	.has-focus-styles & {
 		&:focus {
-			border-color: #75bfff;
+			border-color: #2676ad;
 			background-color: #666;
 		}
 
 		&.is-finish:focus {
-			border-color: #71d981;
+			border-color: #FE4D21;
 		}
 	}
 
@@ -89,18 +89,22 @@
 
 	.is-start:focus & {
 		color: #282220;
-		background-color: #75bfff;
+		background-color: #2676ad;
 	}
 
 	.has-focus-styles :focus & {
 		color: #282220;
-		background-color: #75bfff;
+		background-color: #2676ad;
 	}
 
-	.is-good:focus &,
-	.has-focus-styles .is-finish:focus & {
+	.is-good:focus & {
 		color: #282220;
 		background-color: #71d981;
+	}
+
+	.has-focus-styles .is-finish:focus & {
+		color: #282220;
+		background-color: #FE4D21;
 	}
 }
 

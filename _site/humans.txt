@@ -1,5 +1,0 @@
-/* TEAM */
-	Idea, design and code: Rémi Parmentier
-	Contact: remi [at] hteumeuleu.fr
-	Twitter: @HTeuMeuLeu
-	From: Tourcoing, France
